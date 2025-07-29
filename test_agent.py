@@ -1,4 +1,4 @@
-from app.agent import run_agent_task
+from agent import run_agent_task
 
 def test_weather_prompt():
     response = run_agent_task("What is the weather?")
