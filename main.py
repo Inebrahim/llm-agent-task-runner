@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from app.agent import run_agent_task
+from agent import run_agent_task
 
 app = FastAPI()
 
